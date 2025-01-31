@@ -116,7 +116,7 @@ function createDropdown() {
   
     const optionDeleted = document.createElement("option");
     optionDeleted.value = "deleted";
-    optionDeleted.text = "Deleted";
+    optionDeleted.text = "Delete";
   
     dropdown.appendChild(optionInProgress);
     dropdown.appendChild(optionCompleted);
